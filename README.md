@@ -1,4 +1,5 @@
-# Meta Ejder
+# Meta Dragon (Ejder Ötesi)
+
 The project of a meta workspace in a dragon world.
 
 First step of project is making a website
