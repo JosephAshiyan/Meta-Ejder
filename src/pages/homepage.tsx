@@ -1,9 +1,14 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 import "../App.css";
+
 import { FaDragon } from "react-icons/fa";
 import { SiDungeonsanddragons } from "react-icons/si";
 
+function handleClick (){
 
+}
 function Homepage () {
   return (
     <div className="App">
@@ -17,6 +22,11 @@ function Homepage () {
           <hr />
           <SiDungeonsanddragons className="App-logo" font-size="120px"/>
         </h1>
+        <button 
+        className="App-button"
+        >
+          <Link to="about">Let's Start</Link>
+        </button>
       </div>
     </div>
   )

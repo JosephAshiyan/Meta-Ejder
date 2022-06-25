@@ -1,12 +1,12 @@
 import React from "react";
-import Homepage from "./pages/homepage"
+import AppRouter from "./router/appRouter"
 
 
 
 
 function App() {
   return (
-    <Homepage />
+    <AppRouter />
   );
 }
 export default App;
